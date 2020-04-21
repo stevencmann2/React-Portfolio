@@ -1,0 +1,114 @@
+
+
+[
+    {
+        "id": 1,
+        "image": "/train.jpg",
+        "title": "Train Scheduler",
+        "description": "Train departure guide utilizing Firebase-RTD & Moment.js",
+        "github": "https://github.com/stevencmann2/Train-Schedule",
+        "demo": "https://stevencmann2.github.io/Train-Schedule/",
+        "localIcons" :  [ "/Jquery.svg", "/FirebaseRealTime.png", "/moment.svg"]
+        
+    },
+    {
+        "id": 2,
+        "image": "/bassClickyGame.png",
+        "title": "Clicky Game",
+        "description": "Bass themed memory game utilizing React, deployed using Netlify",
+        "github": "https://github.com/stevencmann2/Clicky-Game-React",
+        "demo": "https://stevencmann2-clicky-game.netlify.com/",
+        "localIcons" :  ["/react.png", "/Bootstrap.png", "/netlify.svg"]
+        
+       
+    },
+    {
+        "id": 3,
+        "title": "Liri",
+        "image": "/Liri.png",
+        "description": "A Siri-like application that gathers user requests and generates a response using the Spotify, Bandsintown, & OMDB API ",
+        "github": "https://github.com/stevencmann2/liri-node-app",
+        "localIcons" :  ["/Terminal.png", "/NodeLogo.svg", "/moment.svg", "/ENV.png", "/API.png"] 
+       
+    },
+    {
+        "id": 4,
+        "title": "Google Books",
+        "image": "/GoogleBooks.png",
+        "description": "M.E.R.N. application using the Google API to seach for books ",
+        "github": "https://github.com/stevencmann2/Google_Books_React",
+        "demo": "https://fierce-savannah-45603.herokuapp.com/",
+        "localIcons" :  ["/mongodb.svg", "/Express.png", "/react.png", "/NodeLogo.svg"]
+        
+       
+    },
+    {
+        "id": 5,
+        "title": "News Scraper",
+        "image": "/NewsScraper.png",
+        "description": "Application letting users view & leave comments on the latest Rolling Stone articles",
+        "github": "https://github.com/stevencmann2/News-Scrape-Mongo",
+        "demo": "https://quiet-escarpment-46032.herokuapp.com/",
+        "localIcons" :  ["/mongodb.svg", "/Express.png", "/NodeLogo.svg", "/Bootstrap.png"]
+       
+    },
+    {
+        "id": 6,
+        "title": "Friend Finder",
+        "image": "/FriendFinder.png",
+        "description": "Full-stack dating application matching user personailty traits",
+        "github": "https://github.com/stevencmann2/friend-finder",
+        "demo": "https://aqueous-mountain-71410.herokuapp.com/",
+        "localIcons" :  ["/html1.png", "/Jquery.svg", "/Bootstrap.png"]
+       
+    },
+    {
+        "id": 7,
+        "title": "Bamazon",
+        "image": "/Bamazon.png",
+        "description": "An Amazon-like CLI application letting users accomplish several tasks via the command line & Inquirer",
+        "github": "https://github.com/stevencmann2/bamazon",
+        "localIcons" :  ["/Terminal.png", "/mysql.svg", "/NodeLogo.svg", "/inquirer.svg"] 
+    },
+    {
+        "id": 8,
+        "title": "Burger Shop",
+        "image": "/BurgerSeq.png",
+        "description": "A burger logger utilizing MVC architecture",
+        "github": "https://github.com/stevencmann2/sequelizedBurger",
+        "demo": "https://afternoon-ravine-21512.herokuapp.com/",
+        "localIcons" :  ["/NodeLogo.svg", "/mysql.svg", "/Express.png", "/handle.png"] 
+       
+    },
+    {
+        "id": 9,
+        "title": "GifTastic",
+        "image": "/giphy.png",
+        "description": "Dynamic web application that populates with gifs using the GIPHY API",
+        "github": "https://github.com/stevencmann2/GifTastic",
+        "demo": "https://stevencmann2.github.io/GifTastic/",
+        "localIcons" :  ["/html1.png", "/Bootstrap.png", "/Jquery.svg", "/API.png" ] 
+       
+    },
+    {
+        "id": 10,
+        "title": "Rock & Roll Trivia",
+        "image": "/Triviagame.png",
+        "description": "Music themed, timed trivia game",
+        "github": "https://github.com/stevencmann2/TriviaGame",
+        "demo": "https://stevencmann2.github.io/TriviaGame/",
+        "localIcons" :  ["/html1.png", "/CSS.png", "/Jquery.svg","/Bootstrap.png"] 
+       
+    },
+    {
+        "id": 10,
+        "title": "Animal Game",
+        "image": "/AnimalGame.png",
+        "description": "Animal themed click game - click carefully!",
+        "github": "https://github.com/stevencmann2/animal-game",
+        "demo": "https://stevencmann2.github.io/animal-game/",
+        "localIcons" :  ["/html1.png", "/CSS.png", "/Jquery.svg","/Bootstrap.png"] 
+       
+    } 
+]
+

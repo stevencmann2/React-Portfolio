@@ -1,0 +1,50 @@
+.wallpaper {
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.custom-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 0.05em solid white;
+    border-radius: 4em;
+    width: 8em;
+    height: 3em;
+    cursor: pointer;
+}
+
+.custom-button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 0.05em solid white;
+    border-radius: 4em;
+    width: 12em;
+    height: 3em;
+    cursor: pointer;
+}
+
+
+/* .bg {
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    will-change: opacity;
+  } */
+
+
+@media (min-width: 650px ) {
+    .wallpaper {
+        background-position: center center;
+        background-size: cover;
+   
+    }
+
+}
