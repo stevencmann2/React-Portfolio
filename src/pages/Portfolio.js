@@ -1,5 +1,6 @@
 import React from 'react';
-import SupplementalFlip from '../components/Layout/Portfolio/SupplementalFlip'
+import Supplemental from '../components/Layout/Portfolio/Supplemental'
+// import SupplementalFlip from '../components/Layout/Portfolio/SupplementalFlip'
 import Projects from '../components/Layout/Portfolio/Projects'
 import Banner from '../components/Layout/Banners/Banner'
 import '../assets/css/home.css'
@@ -21,7 +22,7 @@ const Portfolio = () => {
                 destination2="supplemental"
             />
             <Projects/>
-            <SupplementalFlip /> 
+            <Supplemental /> 
         </div>
     )
 }
