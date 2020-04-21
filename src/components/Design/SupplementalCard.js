@@ -61,7 +61,8 @@ const styles={
         display: 'block',
         marginLeft: 'auto',
         marginRight: 'auto',
-        borderRadius: '0.25rem'
+        borderRadius: '0.25rem',
+        cursor: 'pointer'  
     },
    cardBody: {
        display: 'flex',
@@ -82,7 +83,8 @@ FAIcon: {
     height: '1.3em',
     width: '1.3em',
     color: 'black',
-    margin: '0.4em'   
+    margin: '0.4em',
+    cursor: 'pointer'   
 },
 }
 
