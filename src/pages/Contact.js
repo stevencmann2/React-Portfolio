@@ -21,7 +21,8 @@ const Contact = () => {
 const styles = {
 
     screenContainer: {
-        paddingTop: '4em',
+        
+        paddingTop: '10em',
         paddingBottom: '10em',
     },
     backDrop: {
