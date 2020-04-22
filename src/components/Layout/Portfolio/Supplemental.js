@@ -1,5 +1,4 @@
 import React from 'react';
-// import CardPic from '../../Design/CardPic'
 import SupplementalCard from '../../Design/SupplementalCard'
 import { Container, Row, Col } from 'react-bootstrap'
 import '../../../assets/css/home.css'
@@ -7,6 +6,7 @@ import supplementalData from '../../../assets/json/supplementalData.json'
 
 
 const Supplemental = () => {
+
 
     return(
         <div className="wallpaper" style={{backgroundColor: '#e3d3a6'}}>
@@ -16,7 +16,8 @@ const Supplemental = () => {
                             <h1>Supplemental</h1>
                             <hr style={styles.line}/>
                         </Col>
-                    </Row>
+                </Row>
+
                 <Row>
                 {supplementalData.map(item=>(
                     <Col  xl={6} large={6} md={6} sm={12} xs={12} key={item.id}>

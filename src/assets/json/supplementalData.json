@@ -8,7 +8,9 @@
         "description": "Train departure guide utilizing Firebase-RTD & Moment.js",
         "github": "https://github.com/stevencmann2/Train-Schedule",
         "demo": "https://stevencmann2.github.io/Train-Schedule/",
-        "localIcons" :  [ "/Jquery.svg", "/FirebaseRealTime.png", "/moment.svg"]
+        "localIcons" :  [ "/Jquery.svg", "/FirebaseRealTime.png", "/moment.svg"], 
+        "keywords" : ["train scheduler", "jquery", "firebase", "moment", "html",
+                      "css", "javascript", "bootstrap", "github pages"]
         
     },
     {
@@ -18,7 +20,8 @@
         "description": "Bass themed memory game utilizing React",
         "github": "https://github.com/stevencmann2/Clicky-Game-React",
         "demo": "https://stevencmann2-clicky-game.netlify.com/",
-        "localIcons" :  ["/react.png", "/Bootstrap.png", "/netlify.svg"]
+        "localIcons" :  ["/react.png", "/Bootstrap.png", "/netlify.svg"],
+        "keywords" : ["bass clicky game", "react", "netlify", "bootstrap", "jsx", "javascript" ]
         
        
     },
@@ -28,7 +31,8 @@
         "image": "/Liri.png",
         "description": "Siri-like application that gathers user requests and responsds using select API's ",
         "github": "https://github.com/stevencmann2/liri-node-app",
-        "localIcons" :  ["/Terminal.png", "/NodeLogo.svg", "/moment.svg", "/ENV.png", "/API.png"] 
+        "localIcons" :  ["/Terminal.png", "/NodeLogo.svg", "/moment.svg", "/ENV.png", "/API.png"],
+        "keywords" : ["liri", "api", "node", "moment", ".env", "javascript", "spotify", "bandsinTown", "omdb", "inquier", "axios", "CLI", "command line" ] 
        
     },
     {
@@ -38,7 +42,8 @@
         "description": "M.E.R.N. application combined with Google's API",
         "github": "https://github.com/stevencmann2/Google_Books_React",
         "demo": "https://fierce-savannah-45603.herokuapp.com/",
-        "localIcons" :  ["/mongodb.svg", "/Express.png", "/react.png", "/NodeLogo.svg"]
+        "localIcons" :  ["/mongodb.svg", "/Express.png", "/react.png", "/NodeLogo.svg"],
+        "keywords" : ["google books", "google" ,"api", "node", "express", "mongodb", "react", "bootstrap", "mern", "heroku"] 
         
        
     },
@@ -49,7 +54,9 @@
         "description": "Application letting users view & leave comments on the latest Rolling Stone articles",
         "github": "https://github.com/stevencmann2/News-Scrape-Mongo",
         "demo": "https://quiet-escarpment-46032.herokuapp.com/",
-        "localIcons" :  ["/mongodb.svg", "/Express.png", "/NodeLogo.svg", "/Bootstrap.png"]
+        "localIcons" :  ["/mongodb.svg", "/Express.png", "/NodeLogo.svg", "/Bootstrap.png"],
+        "keywords" : ["news scraper", "express" ,"mongoose", "node", "express", "mongobd", "cheerio", "bootstrap", "jquery", "handlebars", "heroku"] 
+        
        
     },
     {
@@ -59,7 +66,9 @@
         "description": "Full-stack dating application matching user personailty traits",
         "github": "https://github.com/stevencmann2/friend-finder",
         "demo": "https://aqueous-mountain-71410.herokuapp.com/",
-        "localIcons" :  ["/html1.png", "/Jquery.svg", "/Bootstrap.png"]
+        "localIcons" :  ["/html1.png", "/Jquery.svg", "/Bootstrap.png"],
+        "keywords" : ["friend finder", "html" ,"css", "javascript", "jquery", "bootstrap", "express", "heroku"] 
+        
        
     },
     {
@@ -68,7 +77,8 @@
         "image": "/Bamazon.png",
         "description": "Amazon-like CLI application letting users accomplish several tasks via the command line",
         "github": "https://github.com/stevencmann2/bamazon",
-        "localIcons" :  ["/Terminal.png", "/mysql.svg", "/NodeLogo.svg", "/inquirer.svg"] 
+        "localIcons" :  ["/Terminal.png", "/mysql.svg", "/NodeLogo.svg", "/inquirer.svg"], 
+        "keywords": ["bamazon", "javscript", "mysql", "node", "inquirer", "cli", "command line"]
     },
     {
         "id": 8,
@@ -77,8 +87,8 @@
         "description": "A burger logger utilizing MVC architecture",
         "github": "https://github.com/stevencmann2/sequelizedBurger",
         "demo": "https://afternoon-ravine-21512.herokuapp.com/",
-        "localIcons" :  ["/NodeLogo.svg", "/mysql.svg", "/Express.png", "/handle.png"] 
-       
+        "localIcons" :  ["/NodeLogo.svg", "/mysql.svg", "/Express.png", "/handle.png"], 
+        "keywords": ["burger shop", "javscript", "mysql", "sequelize", "node", "jquery", "handlebars", "bootstrap", "mvc", "full stack", "heroku"]
     },
     {
         "id": 9,
@@ -87,7 +97,8 @@
         "description": "Dynamic web application populating with gifs",
         "github": "https://github.com/stevencmann2/GifTastic",
         "demo": "https://stevencmann2.github.io/GifTastic/",
-        "localIcons" :  ["/html1.png", "/Bootstrap.png", "/Jquery.svg", "/API.png" ] 
+        "localIcons" :  ["/html1.png", "/Bootstrap.png", "/Jquery.svg", "/API.png" ],
+        "keywords": ["giftastic", "javscript", "api", "gif", "giphy", "jquery", "css", "bootstrap", "html", "github pages"] 
        
     },
     {
@@ -97,17 +108,19 @@
         "description": "Music themed, timed trivia game",
         "github": "https://github.com/stevencmann2/TriviaGame",
         "demo": "https://stevencmann2.github.io/TriviaGame/",
-        "localIcons" :  ["/html1.png", "/CSS.png", "/Jquery.svg","/Bootstrap.png"] 
+        "localIcons" :  ["/html1.png", "/CSS.png", "/Jquery.svg","/Bootstrap.png"],
+        "keywords": ["rock & roll trivia", "javscript", "github pages", "bootstrap", "jquery", "html"] 
        
     },
     {
-        "id": 10,
+        "id": 11,
         "title": "Animal Game",
         "image": "/AnimalGame.png",
         "description": "Animal themed click game - click carefully!",
         "github": "https://github.com/stevencmann2/animal-game",
         "demo": "https://stevencmann2.github.io/animal-game/",
-        "localIcons" :  ["/html1.png", "/CSS.png", "/Jquery.svg","/Bootstrap.png"] 
+        "localIcons" :  ["/html1.png", "/CSS.png", "/Jquery.svg","/Bootstrap.png"],
+        "keywords": ["animal game", "javscript", "jquery", "bootstrap", "css", "html", "github pages"] 
        
     } 
 ]
