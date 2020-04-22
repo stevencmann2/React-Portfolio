@@ -9,6 +9,12 @@ const Projects = () => {
     return (
         
             <div style={styles.screenContainer} id="projects">
+            <Row>
+                <Col>
+                    <h1 style={{color: 'white'}}>Projects</h1>
+                    <hr style={styles.line}/>
+                </Col>
+            </Row>
                 {projectsData.map((item, index) =>
                 <ProjectsCard
                     key={index}
@@ -36,7 +42,12 @@ const styles={
         paddingLeft: '6em',
         paddingRight: '6em'
     },
-   
+    line: {
+        width: '5em',
+        border: '0.1em solid #560c6b',
+        marginLeft: 0
+    },
+  
    
 }
 

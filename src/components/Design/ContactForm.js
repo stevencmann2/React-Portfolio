@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import { Form, Row, Col, Button, Alert, Spinner } from 'react-bootstrap'
+import { Form, Row, Col, Button, Alert, Spinner, Card } from 'react-bootstrap'
 
 const ContactForm = () => {
 
@@ -123,6 +123,17 @@ const sendEmail = (event) => {
       </Alert>
       ) : (null)}
   
+    <Card style={styles.cardContainer}>
+    <Card.Body>
+      <Card.Title>
+          <h1 style={styles.header}>
+            Contact Me
+          </h1> 
+          <hr style={styles.line}/>
+      </Card.Title>
+      <Card.Subtitle style={styles.sub}>
+          Please fill out the form below or send an email to stevencmann2@gmail.com 
+      </Card.Subtitle>
     <Form validated={validation} onSubmit={formCheck}>
         <Row>
             <Col xs={12} sm={12} md={6} large={6} xl={6} >
@@ -172,7 +183,7 @@ const sendEmail = (event) => {
         
         <Row>
           <Col xs={12} sm={12} md={12} large={12} xl={12}>
-            <Button variant="outline-success" size="lg" type="submit" block>
+            <Button variant="success" size="lg" type="submit" block>
               {showSpinner ? (<Spinner animation="border" variant="success" />):( `Send` )}  
           
             </Button>
@@ -180,6 +191,8 @@ const sendEmail = (event) => {
         </Row>
 
   </Form>
+  </Card.Body>
+  </Card>
   </div>
     
   );
@@ -190,7 +203,24 @@ const styles = {
   messageBox: {
     height: '40vh',
     resize: 'none'
-  }
+  },
+  cardContainer:{
+    boxShadow: '0 8px 6px -6px black',
+    backgroundColor: '#b0bdd4',
+    padding: '1.25rem'    
+},
+header: {
+  color: 'black'
+},
+sub:{
+  marginBottom: '2em'
+},
+line: {
+  width: '5em',
+  border: '0.1em solid #560c6b',
+  marginLeft: 0,
+  marginBottom: '1.5em'
+},
 }
 
 export default ContactForm;

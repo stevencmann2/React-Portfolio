@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "/PassportMobileIPad.png",
+        "image": "/passport.png",
         "title": "Passport (Mobile)",
         "description": "User friendly mobile app designed for planning & budgeting travel needs from start to finish.",
         "github": "https://github.com/aw-exe/mobilePassport",

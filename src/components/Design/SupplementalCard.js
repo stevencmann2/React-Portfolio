@@ -1,12 +1,13 @@
 import React from 'react';
-import { Row, Col, Card } from 'react-bootstrap'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Card } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import '../../assets/css/home.css'
 
 
 const SupplementalCard = props => {
 
     return (
-        <Card style={styles.projectDiv} key={props.id}>
+        <Card style={styles.projectDiv} key={props.id} className="hvr-grow">
             <div style={styles.imgContainer} onClick={()=>window.open(props.demo)}>
                 <Card.Img src={require('../../assets/images/Supplemental' + props.image)} 
                     style={styles.projImg}

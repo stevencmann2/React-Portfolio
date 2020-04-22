@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Row, Col, Card } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import '../../assets/css/home.css'
 
 const ProjectsCard = props =>{
 
@@ -9,9 +9,9 @@ const ProjectsCard = props =>{
 
     return(
       
-        <Row style={styles.projectDiv} key={props.id}>
+        <Row style={styles.projectDiv} key={props.id} className="hvr-grow">
                 <Col md={6}>
-                    <div style={styles.imgContainer} onClick={()=>window.open(props.demo)}>
+                    <div  style={styles.imgContainer} onClick={()=>window.open(props.demo)}>
                         <Card.Img src={require('../../assets/images/Projects' + props.image)} 
                             style={styles.projImg}
                             />  

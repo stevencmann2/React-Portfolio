@@ -9,10 +9,7 @@ const Contact = () => {
     return(
     <div style={styles.backDrop}>
         <Container style={styles.screenContainer}>
-            <h1>Let's Connect</h1>
-            <div>   
-                <p>Please send an email to stevencmann2@gmail.com or fill out the form below</p>
-            </div>
+            
             <ContactForm />
         </Container>
     </div>

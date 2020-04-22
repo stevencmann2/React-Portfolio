@@ -3,7 +3,7 @@
 [
     {
         "id": 1,
-        "image": "/train.jpg",
+        "image": "/cablecar.png",
         "title": "Train Scheduler",
         "description": "Train departure guide utilizing Firebase-RTD & Moment.js",
         "github": "https://github.com/stevencmann2/Train-Schedule",
@@ -38,7 +38,7 @@
     {
         "id": 4,
         "title": "Google Books",
-        "image": "/GoogleBooks.png",
+        "image": "/books.jpg",
         "description": "M.E.R.N. application combined with Google's API",
         "github": "https://github.com/stevencmann2/Google_Books_React",
         "demo": "https://fierce-savannah-45603.herokuapp.com/",
@@ -62,7 +62,7 @@
     {
         "id": 6,
         "title": "Friend Finder",
-        "image": "/FriendFinder.png",
+        "image": "/friends.png",
         "description": "Full-stack dating application matching user personailty traits",
         "github": "https://github.com/stevencmann2/friend-finder",
         "demo": "https://aqueous-mountain-71410.herokuapp.com/",
@@ -83,7 +83,7 @@
     {
         "id": 8,
         "title": "Burger Shop",
-        "image": "/BurgerSeq.png",
+        "image": "/retroDiner.jpg",
         "description": "A burger logger utilizing MVC architecture",
         "github": "https://github.com/stevencmann2/sequelizedBurger",
         "demo": "https://afternoon-ravine-21512.herokuapp.com/",
@@ -104,7 +104,7 @@
     {
         "id": 10,
         "title": "Rock & Roll Trivia",
-        "image": "/Triviagame.png",
+        "image": "/RR.jpg",
         "description": "Music themed, timed trivia game",
         "github": "https://github.com/stevencmann2/TriviaGame",
         "demo": "https://stevencmann2.github.io/TriviaGame/",
@@ -115,7 +115,7 @@
     {
         "id": 11,
         "title": "Animal Game",
-        "image": "/AnimalGame.png",
+        "image": "/animal.png",
         "description": "Animal themed click game - click carefully!",
         "github": "https://github.com/stevencmann2/animal-game",
         "demo": "https://stevencmann2.github.io/animal-game/",

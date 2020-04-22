@@ -13,14 +13,14 @@ const Supplemental = () => {
             <div style={styles.screenContainer} id="supplemental">
                 <Row>
                         <Col>
-                            <h1>Supplemental</h1>
+                            <h1 style={{color: 'white'}}>Supplemental</h1>
                             <hr style={styles.line}/>
                         </Col>
                 </Row>
 
                 <Row>
                 {supplementalData.map(item=>(
-                    <Col  xl={6} large={6} md={6} sm={12} xs={12} key={item.id}>
+                    <Col  xl={6} large={6} md={6} sm={12} xs={12} key={item.id} style={{marginleft: 0, paddingLeft: 0}}>
                         <SupplementalCard 
                             key={item.id}
                             image={item.image}
@@ -55,11 +55,12 @@ const styles= {
         width: '50vh',
         maxHeight: '50vh',
         overflow: "hidden",
-        cursor: "pointer"
+        cursor: "pointer",
+        marginLeft: 0
     },
     line: {
         width: '5em',
-        border: '0.1em solid blue',
+        border: '0.1em solid #560c6b',
         marginLeft: 0
     },
   

@@ -94,7 +94,7 @@ const styles = {
    
     line: {
         width: '5em',
-        border: '0.1em solid blue',
+        border: '0.1em solid #560c6b',
         marginLeft: 0
     },
     brand: {
