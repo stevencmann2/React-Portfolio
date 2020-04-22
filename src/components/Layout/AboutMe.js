@@ -4,6 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 import AboutCard from '../Design/AboutCard'
 import Headshot from '../Design/Headshot'
 import '../../assets/css/home.css'
+import Pattern from '../../assets/images/Backgrounds/pattern.png'
 import { CardBody } from 'react-bootstrap/Card';
 
 const AboutMe = () => {
@@ -11,32 +12,29 @@ const AboutMe = () => {
 
     return(
         
-            <div className=".img-fluid wallpaper" id="about" style={styles.aboutWrapper}>
+            <div id="about" style={{backgroundImage: `url(${Pattern})`}}>
                 <Container style={styles.screenContainer}> 
-                <Card style={styles.cardContainer} id="mySkills">
-                    <Card.Body>
-                    <Card.Title>
-                        <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
-                            <h1 style={styles.header}>About Me</h1>
-                            <hr style={styles.line}/>
-                        </ScrollAnimation> 
-                    </Card.Title>
-                    <Card.Text>
-                    <Row>
-                        <Col xs={12} sm={12} md={6} lg={8} xl={8} style={styles.colWrapper}>
-                            <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
-                                <AboutCard />
-                            </ScrollAnimation>
-                        </Col>
-                        <Col xs={12} sm={12} md={6} lg={4} xl={4} style={styles.colWrapper}>
-                            <ScrollAnimation animateIn="fadeInRight" animateOnce={true}>
-                                <Headshot imageSource={require('../../assets/images/Personal/Balcony.JPG')}/> 
-                            </ScrollAnimation>
-                        </Col>
-                        </Row>
-                        </Card.Text> 
-                </Card.Body>
-                </Card>
+                    <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
+                        <Card style={styles.cardContainer} id="mySkills">
+                            <Card.Body>
+                            <Card.Title>
+                                    <h1 style={styles.header}>About Me</h1>
+                                    <hr style={styles.line}/>
+
+                            </Card.Title>
+                            <Card.Text>
+                            <Row>
+                                <Col xs={12} sm={12} md={6} lg={8} xl={8} style={styles.colWrapper}>
+                                        <AboutCard />
+                                </Col>
+                                <Col xs={12} sm={12} md={6} lg={4} xl={4} style={styles.colWrapper}>
+                                    <Headshot imageSource={require('../../assets/images/Personal/Balcony.JPG')}/> 
+                                </Col>
+                                </Row>
+                                </Card.Text> 
+                        </Card.Body>
+                        </Card>
+                    </ScrollAnimation>
                     <Row className="justify-content-center m-5"> 
                         <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                             <Image src={require('../../assets/images/Icons/NodeLogo.svg')} style={styles.logo} />

@@ -2,6 +2,7 @@ import React from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
 import SkillsCard from '../components/Design/SkillsCard'
 import Banner from '../components/Layout/Banners/Banner'
+import Pattern from '../assets/images/Backgrounds/pattern.png'
 import '../assets/css/home.css'
 
 
@@ -9,7 +10,7 @@ import '../assets/css/home.css'
 const Skills = () => {
 
     return( 
-        <div className="wallpaper" style={{backgroundColor: '#132745'}} >
+        <div style={{backgroundImage: `url(${Pattern})`}} >
             <Banner 
                 background="CedricLetsch.jpg"
                 header="Skills"

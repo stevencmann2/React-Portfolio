@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
+import Pattern from '../../../assets/images/Backgrounds/pattern.png'
 import ProjectsCard from '../../Design/ProjectsCard';
 import projectsData from '../../../assets/json/projectsData.json';
 
@@ -8,9 +9,6 @@ const Projects = () => {
     return (
         
             <div style={styles.screenContainer} id="projects">
-            
-
-
                 {projectsData.map((item, index) =>
                 <ProjectsCard
                     key={index}
@@ -32,6 +30,7 @@ const Projects = () => {
 
 const styles={
     screenContainer: {
+        backgroundImage: `url(${Pattern})`,
         paddingTop: '4em',
         paddingBottom: '6em',
         paddingLeft: '6em',

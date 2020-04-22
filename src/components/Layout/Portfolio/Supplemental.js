@@ -3,13 +3,13 @@ import SupplementalCard from '../../Design/SupplementalCard'
 import { Container, Row, Col } from 'react-bootstrap'
 import '../../../assets/css/home.css'
 import supplementalData from '../../../assets/json/supplementalData.json'
-
+import Map from '../../../assets/images/Backgrounds/map.png'
 
 const Supplemental = () => {
 
 
     return(
-        <div className="wallpaper" style={{backgroundColor: '#e3d3a6'}}>
+        <div style={{backgroundColor: '#1f2629' , backgroundImage: `url(${Map})`}}>
             <div style={styles.screenContainer} id="supplemental">
                 <Row>
                         <Col>
