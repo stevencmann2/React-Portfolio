@@ -6,13 +6,19 @@ import HomeBanner from '../components/Layout/Banners/HomeBanner'
 const Home = () => {
 
     return(
-        <div>   
+        <div style={styles.screen}>   
             <HomeBanner
                 background="HuguesDeBuyer.jpg"/>    
             <AboutMe />      
         </div>
     )
 
+}
+
+const styles={
+    screen:{
+        fontFamily: `'Baloo Tammudu 2', cursive`
+    }
 }
 
 export default Home;

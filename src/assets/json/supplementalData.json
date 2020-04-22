@@ -105,7 +105,7 @@
         "id": 10,
         "title": "Rock & Roll Trivia",
         "image": "/RR.jpg",
-        "description": "Music themed, timed trivia game",
+        "description": "Music themed trivia game",
         "github": "https://github.com/stevencmann2/TriviaGame",
         "demo": "https://stevencmann2.github.io/TriviaGame/",
         "localIcons" :  ["/html1.png", "/CSS.png", "/Jquery.svg","/Bootstrap.png"],

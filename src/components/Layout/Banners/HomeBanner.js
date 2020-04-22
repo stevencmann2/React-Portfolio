@@ -30,7 +30,7 @@ const HomeBanner = props => {
         <div className=".img-fluid wallpaper" 
              style={{backgroundImage: `url(${require(`../../../assets/images/Backgrounds/${props.background}`)})`,
                     height: '45em'}}>
-            <Container>
+            <Container style={styles.bannerText}>
                 <Row>
                     <Col xs={12} sm={12} md={12} lg={12} xl={12}>
                         <animated.div style={fadeInTop}>
@@ -66,6 +66,9 @@ const styles = {
     brand: {
         marginTop: '18%',
         color: 'white'
+    },
+    bannerText: {
+       fontFamily:`'Montserrat', sans-serif`
     },
     header: {
        color: 'white'

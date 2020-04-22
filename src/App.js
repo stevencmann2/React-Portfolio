@@ -12,6 +12,7 @@ import Skills from './pages/Skills';
 import MyNavbar from './components/Layout/MyNavbar'
 import Footer from './components/Layout/Footer';
 
+
 library.add(fab, faCheckSquare, faCoffee, faFileAlt, faEnvelope, faCode, faEye)
 
 
@@ -20,7 +21,6 @@ library.add(fab, faCheckSquare, faCoffee, faFileAlt, faEnvelope, faCode, faEye)
 const App = () => {
   return (
     <Router>
-    
       <MyNavbar />
         <Switch>
           <Route exact path="/" component={Home} />

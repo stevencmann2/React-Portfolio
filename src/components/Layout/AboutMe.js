@@ -22,16 +22,16 @@ const AboutMe = () => {
                                     <hr style={styles.line}/>
 
                             </Card.Title>
-                            <Card.Text>
+                            
                             <Row>
-                                <Col xs={12} sm={12} md={6} lg={8} xl={8} style={styles.colWrapper}>
+                                <Col xs={12} sm={12} md={12} lg={6} xl={8} style={styles.colWrapper}>
                                         <AboutCard />
                                 </Col>
-                                <Col xs={12} sm={12} md={6} lg={4} xl={4} style={styles.colWrapper}>
+                                <Col xs={12} sm={12} md={12} lg={6} xl={4} style={styles.colWrapper}>
                                     <Headshot imageSource={require('../../assets/images/Personal/Balcony.JPG')}/> 
                                 </Col>
                                 </Row>
-                                </Card.Text> 
+                                
                         </Card.Body>
                         </Card>
                     </ScrollAnimation>
@@ -64,7 +64,9 @@ const styles ={
         padding: '1.25rem'    
     },
     header: {
-        color: 'black'
+        color: 'black',
+        fontFamily: `'Roboto', sans-serif`,
+        fontWeight: 700
     },
     line: {
         width: '5em',

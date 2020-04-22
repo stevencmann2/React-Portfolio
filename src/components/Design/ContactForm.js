@@ -183,9 +183,8 @@ const sendEmail = (event) => {
         
         <Row>
           <Col xs={12} sm={12} md={12} large={12} xl={12}>
-            <Button variant="success" size="lg" type="submit" block>
-              {showSpinner ? (<Spinner animation="border" variant="success" />):( `Send` )}  
-          
+            <Button variant="success" size="lg" type="submit" style={styles.buttn} block>
+              {showSpinner ? (<Spinner animation="border" variant="success" />):( `Send`)}  
             </Button>
           </Col>
         </Row>
@@ -221,6 +220,9 @@ line: {
   marginLeft: 0,
   marginBottom: '1.5em'
 },
+buttn:{
+  marginTop: '1em'
+}
 }
 
 export default ContactForm;
