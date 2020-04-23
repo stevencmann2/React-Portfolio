@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Image, Row, Col, Container } from 'react-bootstrap'
+import { Card, Image, Row, Container } from 'react-bootstrap'
 import ScrollAnimation from 'react-animate-on-scroll'
 import skillsData from '../../assets/json/skillsData.json'
 

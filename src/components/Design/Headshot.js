@@ -10,7 +10,8 @@ const Headshot = props => {
             <Image 
                 src={props.imageSource} 
                 style={styles.imageContainer}
-                fluid/>
+                fluid
+                alt="Mexico City Balcony"/>
         </div>
     )
 

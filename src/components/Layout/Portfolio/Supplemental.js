@@ -1,6 +1,6 @@
 import React from 'react';
 import SupplementalCard from '../../Design/SupplementalCard'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import '../../../assets/css/home.css'
 import supplementalData from '../../../assets/json/supplementalData.json'
 import MapPattern from '../../../assets/images/Backgrounds/map.png'

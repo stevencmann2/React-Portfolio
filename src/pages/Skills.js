@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Row, Col} from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import SkillsCard from '../components/Design/SkillsCard'
 import Banner from '../components/Layout/Banners/Banner'
 import Pattern from '../assets/images/Backgrounds/pattern.png'

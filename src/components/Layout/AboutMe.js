@@ -1,11 +1,11 @@
 import React from 'react';
-import { Container, Row, Col, Image, Card } from 'react-bootstrap'
-import ScrollAnimation from 'react-animate-on-scroll'
-import AboutCard from '../Design/AboutCard'
-import Headshot from '../Design/Headshot'
-import '../../assets/css/home.css'
-import Pattern from '../../assets/images/Backgrounds/pattern.png'
-import { CardBody } from 'react-bootstrap/Card';
+import { Container, Row, Col, Image, Card } from 'react-bootstrap';
+import ScrollAnimation from 'react-animate-on-scroll';
+import AboutCard from '../Design/AboutCard';
+import Headshot from '../Design/Headshot';
+import '../../assets/css/home.css';
+import Pattern from '../../assets/images/Backgrounds/pattern.png';
+
 
 const AboutMe = () => {
 
@@ -39,9 +39,9 @@ const AboutMe = () => {
                     </ScrollAnimation>
                     <Row className="justify-content-center m-5"> 
                         <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-                            <Image src={require('../../assets/images/Icons/NodeLogo.svg')} style={styles.logo} />
-                            <Image src={require('../../assets/images/Icons/react.png')} style={styles.logo} />
-                            <Image src={require('../../assets/images/Icons/javascript.png')} style={styles.logo} />
+                            <Image src={require('../../assets/images/Icons/NodeLogo.svg')} alt="Node logo" style={styles.logo} />
+                            <Image src={require('../../assets/images/Icons/react.png')} alt="React logo" style={styles.logo} />
+                            <Image src={require('../../assets/images/Icons/javascript.png')} alt="Javascript logo"  style={styles.logo} />
                         </ScrollAnimation>
                     </Row>
                 </Container>
@@ -89,6 +89,6 @@ const styles ={
     }
 
 
-}
+};
 
 export default AboutMe;
