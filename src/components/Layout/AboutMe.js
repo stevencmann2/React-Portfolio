@@ -18,7 +18,7 @@ const AboutMe = () => {
                     <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
                         <Row>
                             <Col>
-                                <h1 style={styles.header}>Who am I ?</h1>
+                                <h1 style={styles.header}>Hi there!</h1>
                                 <hr style={styles.line}/>
                             </Col>
                         </Row>

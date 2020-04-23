@@ -16,7 +16,7 @@ const Skills = () => {
                 header="Skills"
                 subHeader={`"The beautiful thing about learning is that no one can take it away from you"`}
                 subHeader2="B.B. King"
-                buttonTitle="Skills"
+                buttonTitle="Let's See It"
                 destination="mySkills"
             />
             <Container style={styles.screenContainer}>
@@ -29,7 +29,7 @@ const Skills = () => {
 
 const styles = {
     screenContainer: {
-        paddingTop: '8em',
+        paddingTop: '10em',
         paddingBottom: '6em',
         // paddingLeft: '6em',
         // paddingRight: '6em'

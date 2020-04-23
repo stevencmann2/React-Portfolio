@@ -69,13 +69,13 @@ const Banner = props => {
                     </Col>
                 </Row>
                 <Row>
-                    <Link to={props.destination} smooth={true} duration={2000} offset={-110}>
+                    <Link to={props.destination} smooth={true} duration={2000} offset={-100}>
                         <div className="custom-button" style={{backgroundColor: clicked}} onMouseDown={MouseDownHandler} onMouseUp={MouseUpHandler}>
                             <h4 style={styles.buttonText}>{props.buttonTitle}</h4>   
                         </div>
                     </Link>
                     {props.destination2 && props.buttonTitle2 ? (
-                    <Link to={props.destination2} smooth={true} duration={1800} offset={-110}>
+                    <Link to={props.destination2} smooth={true} duration={1800} offset={-100}>
                         <div className="custom-button2 ml-3" style={{backgroundColor: clicked2}} onMouseDown={MouseDownHandler2} onMouseUp={MouseUpHandler2}>
                             <h4 style={styles.buttonText}>{props.buttonTitle2}</h4>   
                         </div>
@@ -117,14 +117,16 @@ const styles = {
     subHeader2: {
         fontFamily: `'Poppins', sans-serif`,
         fontStyle: 'italic',
-        fontWeight: 400,
-        fontSize: '1.5em',
+        fontWeight: 200,
+        fontSize: '1.2em',
     },
     buttonText: {
         color: 'white',
+        paddingTop: '0.4em',
         textAlign: 'center',
         fontFamily: `'Poppins', sans-serif`,
-        fontWeight: 400   
+        fontWeight: 200,
+        fontSize: '1.2em',   
     }
 }
 export default Banner; 

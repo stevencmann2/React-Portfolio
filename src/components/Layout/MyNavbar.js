@@ -27,8 +27,10 @@ const styles = {
  
   shadow: {
     backgroundColor: "black",
-    paddingTop: '1.5em',
-    paddingBottom: '1.5em',
+    // paddingTop: '1.5em',
+    // paddingBottom: '1.5em',
+    paddingLeft: '4em',
+    paddingRight: '4em',
     boxShadow: '0 8px 6px -6px black',
     
   },
