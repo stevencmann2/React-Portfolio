@@ -3,13 +3,16 @@ import { Row, Col } from 'react-bootstrap';
 import Pattern from '../../../assets/images/Backgrounds/pattern.png'
 import ProjectsCard from '../../Design/ProjectsCard';
 import projectsData from '../../../assets/json/projectsData.json';
+import ScrollAnimation from 'react-animate-on-scroll'
 
 
 const Projects = () => {
     return (
         
             <div style={styles.screenContainer} id="projects">
+            <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
             <Row>
+
                 <Col>
                     <h1 style={styles.section}>Projects</h1>
                     <hr style={styles.line}/>
@@ -27,7 +30,7 @@ const Projects = () => {
                     demo={item.demo}
                 />
                 )}
-               
+                </ScrollAnimation>
            </div>
   
     )

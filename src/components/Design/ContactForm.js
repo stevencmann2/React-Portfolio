@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { Form, Row, Col, Button, Alert, Spinner, Card } from 'react-bootstrap'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 const ContactForm = () => {
 
@@ -93,8 +94,8 @@ const sendEmail = (event) => {
   
 
   return (
-    <div>
-     
+    <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
+    
       <Row>
         <Col>
             <h1 style={styles.header}>
@@ -196,7 +197,7 @@ const sendEmail = (event) => {
   </Form>
   </Card.Body>
   </Card>
-  </div>
+  </ScrollAnimation>
     
   );
 }

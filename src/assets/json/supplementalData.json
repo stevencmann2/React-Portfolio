@@ -29,7 +29,7 @@
         "id": 3,
         "title": "Liri",
         "image": "/Liri.png",
-        "description": "Siri-like application that gathers user requests and responsds using select API's ",
+        "description": "Siri-like application that gathers user requests and responds using select APIs ",
         "github": "https://github.com/stevencmann2/liri-node-app",
         "localIcons" :  ["/Terminal.png", "/NodeLogo.svg", "/moment.svg", "/ENV.png", "/API.png"],
         "keywords" : ["liri", "api", "node", "moment", ".env", "javascript", "spotify", "bandsinTown", "omdb", "inquier", "axios", "CLI", "command line" ] 
@@ -63,7 +63,7 @@
         "id": 6,
         "title": "Friend Finder",
         "image": "/friends.png",
-        "description": "Full-stack dating application matching user personailty traits",
+        "description": "Full stack dating application matching user personailty traits",
         "github": "https://github.com/stevencmann2/friend-finder",
         "demo": "https://aqueous-mountain-71410.herokuapp.com/",
         "localIcons" :  ["/html1.png", "/Jquery.svg", "/Bootstrap.png"],

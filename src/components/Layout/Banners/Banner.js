@@ -75,7 +75,7 @@ const Banner = props => {
                         </div>
                     </Link>
                     {props.destination2 && props.buttonTitle2 ? (
-                    <Link to={props.destination2} smooth={true} duration={1800} offset={-100}>
+                    <Link to={props.destination2} smooth={true} duration={2000} offset={-100}>
                         <div className="custom-button2 ml-3" style={{backgroundColor: clicked2}} onMouseDown={MouseDownHandler2} onMouseUp={MouseUpHandler2}>
                             <h4 style={styles.buttonText}>{props.buttonTitle2}</h4>   
                         </div>

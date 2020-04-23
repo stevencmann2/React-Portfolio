@@ -3,14 +3,16 @@ import SupplementalCard from '../../Design/SupplementalCard'
 import { Container, Row, Col } from 'react-bootstrap'
 import '../../../assets/css/home.css'
 import supplementalData from '../../../assets/json/supplementalData.json'
-import Map from '../../../assets/images/Backgrounds/map.png'
+import MapPattern from '../../../assets/images/Backgrounds/map.png'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 const Supplemental = () => {
 
 
     return(
-        <div style={{backgroundColor: '#1f2629' , backgroundImage: `url(${Map})`}}>
+        <div style={{backgroundColor: '#1f2629' , backgroundImage: `url(${MapPattern})`}}>
             <div style={styles.screenContainer} id="supplemental">
+            <ScrollAnimation animateIn="fadeInRight" animateOnce={true}>
                 <Row>
                         <Col>
                             <h1 style={styles.section}>Supplemental</h1>
@@ -34,6 +36,7 @@ const Supplemental = () => {
                     </Col>
                     ))}
                 </Row>
+                </ScrollAnimation>
             </div>  
         </div>
     )
