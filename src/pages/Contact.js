@@ -19,7 +19,6 @@ const Contact = () => {
 const styles = {
 
     screenContainer: {
-        
         paddingTop: '10em',
         paddingBottom: '10em',
     },
