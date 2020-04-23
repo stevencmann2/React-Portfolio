@@ -19,7 +19,7 @@ const SkillsCard = () => {
         <Card style={styles.cardContainer} id="mySkills">
             
             <Card.Body >
-                <Card.Title>
+                <Card.Title style={styles.LanTitle}>
                     Languages & Tools
                 </Card.Title>
                     <Container>
@@ -28,7 +28,7 @@ const SkillsCard = () => {
                             <div key={item.id}>
                                 <div style={styles.itemStack} >
                                     <Image src={require('../../assets/images/Icons'+ item.iconLogo)} style={styles.logo}/> 
-                                    <p>{item.name}</p>
+                                    <p style={styles.lanName}>{item.name}</p>
                                 </div>
                             </div>
                         )}
@@ -38,7 +38,7 @@ const SkillsCard = () => {
             
 
             <Card.Body >
-                <Card.Title>
+                <Card.Title style={styles.LanTitle}>
                     Libraries
                 </Card.Title>
                     <Container>
@@ -47,7 +47,7 @@ const SkillsCard = () => {
                             <div key={item.id}>
                                 <div style={styles.itemStack} >
                                     <Image src={require('../../assets/images/Icons'+ item.iconLogo)} style={styles.logo}/> 
-                                    <p>{item.name}</p>
+                                    <p style={styles.lanName}>{item.name}</p>
                                 </div>
                             </div>
                         )}
@@ -56,7 +56,7 @@ const SkillsCard = () => {
             </Card.Body>
 
             <Card.Body >
-                <Card.Title>
+                <Card.Title style={styles.LanTitle}>
                     Frameworks
                 </Card.Title>
                     <Container>
@@ -65,7 +65,7 @@ const SkillsCard = () => {
                             <div key={item.id}>
                                 <div style={styles.itemStack} >
                                     <Image src={require('../../assets/images/Icons'+ item.iconLogo)} style={styles.logo}/> 
-                                    <p>{item.name}</p>
+                                    <p style={styles.lanName}>{item.name}</p>
                                 </div>
                             </div>
                         )}
@@ -74,7 +74,7 @@ const SkillsCard = () => {
             </Card.Body> 
 
             <Card.Body >
-                <Card.Title>
+                <Card.Title style={styles.LanTitle}>
                     Databases & Architecture
                 </Card.Title>
                     <Container>
@@ -83,7 +83,7 @@ const SkillsCard = () => {
                             <div key={item.id}>
                                 <div style={styles.itemStack} >
                                     <Image src={require('../../assets/images/Icons'+ item.iconLogo)} style={styles.logo}/> 
-                                    <p>{item.name}</p>
+                                    <p style={styles.lanName}>{item.name}</p>
                                 </div>
                             </div>
                         )}
@@ -92,7 +92,7 @@ const SkillsCard = () => {
              </Card.Body>    
              
              <Card.Body >
-                <Card.Title>
+                <Card.Title style={styles.LanTitle}>
                     Identity
                 </Card.Title>
                     <Container>
@@ -101,7 +101,7 @@ const SkillsCard = () => {
                             <div key={item.id}>
                                 <div style={styles.itemStack} >
                                     <Image src={require('../../assets/images/Icons'+ item.iconLogo)} style={styles.logo}/> 
-                                    <p>{item.name}</p>
+                                    <p style={styles.lanName}>{item.name}</p>
                                 </div>
                             </div>
                         )}
@@ -110,7 +110,7 @@ const SkillsCard = () => {
              </Card.Body>  
 
             <Card.Body >
-                <Card.Title>
+                <Card.Title style={styles.LanTitle}>
                     Development Tools
                 </Card.Title>
                     <Container>
@@ -119,7 +119,7 @@ const SkillsCard = () => {
                             <div key={item.id}>
                                 <div style={styles.itemStack} >
                                     <Image src={require('../../assets/images/Icons'+ item.iconLogo)} style={styles.logo}/> 
-                                    <p>{item.name}</p>
+                                    <p style={styles.lanName}>{item.name}</p>
                                 </div>
                             </div>
                         )}
@@ -128,7 +128,7 @@ const SkillsCard = () => {
             </Card.Body>
 
             <Card.Body >
-            <Card.Title>
+            <Card.Title style={styles.LanTitle}>
                 Deployment
             </Card.Title>
                 <Container>
@@ -137,7 +137,7 @@ const SkillsCard = () => {
                         <div key={item.id}>
                             <div style={styles.itemStack} >
                                 <Image src={require('../../assets/images/Icons'+ item.iconLogo)} style={styles.logo}/> 
-                                <p>{item.name}</p>
+                                <p style={styles.lanName}>{item.name}</p>
                             </div>
                         </div>
                     )}
@@ -168,6 +168,14 @@ const styles = {
         color: 'white',
         margin: '0.4em'   
     },
+    LanTitle:{
+        fontFamily:`'Poppins', sans-serif`,
+        fontWeight: 700,
+    },
+    lanName:{
+        fontFamily:`'Poppins', sans-serif`,
+        fontWeight: 200
+    }
    
 }
 

@@ -29,8 +29,11 @@ const Skills = () => {
 
 const styles = {
     screenContainer: {
-        paddingTop: '4em',
-        paddingBottom: '10em',
+        paddingTop: '8em',
+        paddingBottom: '6em',
+        // paddingLeft: '6em',
+        // paddingRight: '6em'
+        
     },
 }
 

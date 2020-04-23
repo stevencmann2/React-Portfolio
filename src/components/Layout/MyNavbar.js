@@ -31,16 +31,16 @@ const styles = {
     paddingBottom: '1.5em',
     boxShadow: '0 8px 6px -6px black',
     
-},
-me:{
-  fontFamily: `'Neuton', serif`,
-  fontWeight: 800,
-  fontSize: '3em'
-},
-linksText:{
-  fontFamily: `'Neuton', serif`,
-  fontWeight: 400,
-}
+  },
+  me:{
+    fontFamily: `'Abril Fatface', cursive`,
+    color: 'white',
+    fontSize: '3em'
+  },
+  linksText:{
+    fontFamily:`'Poppins', sans-serif`,
+    fontWeight: 700
+  }
 
 }
 

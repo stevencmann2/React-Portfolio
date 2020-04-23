@@ -14,15 +14,17 @@ const AboutMe = () => {
         
             <div id="about" style={{backgroundImage: `url(${Pattern})`}}>
                 <Container style={styles.screenContainer}> 
-                    <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
-                        <Card style={styles.cardContainer} id="mySkills">
-                            <Card.Body>
-                            <Card.Title>
-                                    <h1 style={styles.header}>About Me</h1>
-                                    <hr style={styles.line}/>
 
-                            </Card.Title>
-                            
+                    <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
+                        <Row>
+                            <Col>
+                                <h1 style={styles.header}>Who am I ?</h1>
+                                <hr style={styles.line}/>
+                            </Col>
+                        </Row>
+
+                        <Card style={styles.cardContainer} >
+                            <Card.Body>
                             <Row>
                                 <Col xs={12} sm={12} md={12} lg={6} xl={8} style={styles.colWrapper}>
                                         <AboutCard />
@@ -55,22 +57,25 @@ const styles ={
         backgroundColor:'#132745',
     },
     screenContainer: {
-        paddingTop: '7em',
-        paddingBottom: '10em',
+         paddingTop: '4em',
+        paddingBottom: '6em',
+        // paddingLeft: '6em',
+        // paddingRight: '6em'
     },
     cardContainer:{
         boxShadow: '0 8px 6px -6px black',
         backgroundColor: '#b0bdd4',
-        padding: '1.25rem'    
+        padding: '1.25rem',
+        marginTop: '2em'   
     },
     header: {
-        color: 'black',
-        fontFamily: `'Roboto', sans-serif`,
-        fontWeight: 700
+        color: 'white',
+        fontFamily: `'Abril Fatface', cursive`,
+        
     },
     line: {
         width: '5em',
-        border: '0.1em solid #560c6b',
+        border: '0.1em solid white',
         marginLeft: 0,
         marginBottom: '1.5em'
     },

@@ -12,16 +12,16 @@ const Footer = () => {
                 <Container className="text-center text-light">
                        
                         <Col xs={4} sm={4} md={4} large={4} xl={4} >
-                            <NavLink exact to="/" className="navbar-brand text-light">Steven Mann</NavLink>   
+                            <NavLink exact to="/" className="navbar-brand" style={styles.me}> &copy; Steven Mann 2020</NavLink>   
                         </Col>
                         
 
                         <Col xs={4} sm={4} md={4} large={4} xl={4} >
                             <Nav className="ml-auto">
-                                <NavLink exact to="/" className="nav-item nav-link text-light" >Home</NavLink>
-                                <NavLink exact to="/skills" className="nav-item nav-link text-light" >Skills</NavLink>
-                                <NavLink exact to="/portfolio" className="nav-item nav-link text-light" >Portfolio</NavLink>
-                                <NavLink exact to="/contact" className="nav-item nav-link text-light" >Contact</NavLink>
+                                <NavLink exact to="/" className="nav-item nav-link" style={styles.linksText}>Home</NavLink>
+                                <NavLink exact to="/skills" className="nav-item nav-link" style={styles.linksText}>Skills</NavLink>
+                                <NavLink exact to="/portfolio" className="nav-item nav-link" style={styles.linksText}>Portfolio</NavLink>
+                                <NavLink exact to="/contact" className="nav-item nav-link" style={styles.linksText}>Contact</NavLink>
                             </Nav>
                         </Col>
                         <Col className="d-flex justify-content-around" xs={4} sm={4} md={4} large={4} xl={4} >
@@ -49,6 +49,18 @@ const styles = {
     footerContainer:{
         backgroundColor: "black",
     },
+    me:{
+        fontFamily:`'Poppins', sans-serif`,
+        fontWeight: 700,
+        fontSize: '0.8em',
+        color: 'white', 
+      },
+      linksText:{
+        fontFamily:`'Poppins', sans-serif`,
+        fontWeight: 700,
+        fontSize: '0.8em',
+        color: 'white'
+      },
     logo: {
         height: '1.5em',
         width: '1.5em',

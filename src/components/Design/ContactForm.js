@@ -94,10 +94,20 @@ const sendEmail = (event) => {
 
   return (
     <div>
+     
+      <Row>
+        <Col>
+            <h1 style={styles.header}>
+              Contact Me
+            </h1> 
+           <hr style={styles.line}/>
+        </Col>
+      </Row>
+      <div>
       {showErrorAlert ? (
         <Alert variant="danger" onClose={() => setShowErrorAlert(false)} dismissible>
-          <Alert.Heading>Incomplete Attempt</Alert.Heading>
-            <p>
+          <Alert.Heading style={styles.alertTitle}>Incomplete Attempt</Alert.Heading>
+            <p style={styles.alertBody}>
               It looks like you were trying to contact Steven, but did not complete the form. 
               Please make sure all fields are filled out completely to ensure your message is delivered. 
             </p>
@@ -106,8 +116,8 @@ const sendEmail = (event) => {
 
       {showInternalErrorAlert ? (
         <Alert variant="danger" onClose={() => setShowInternalErrorAlert(false)} dismissible>
-          <Alert.Heading>ERROR: Unable to Send</Alert.Heading>
-            <p>
+          <Alert.Heading style={styles.alertTitle}>ERROR: Unable to Send</Alert.Heading>
+            <p style={styles.alertBody}>
               I apoligize for the inconvenience, it appears there was an internal error while attempting to send your message. Please send an email directly to stevencmann2@gmail.com
               for the time being while this issue is being resolved. 
             </p>
@@ -116,24 +126,18 @@ const sendEmail = (event) => {
 
       {successAlert ? (
         <Alert variant="success" onClose={() => setSuccessAlert(false)} dismissible>
-          <Alert.Heading>Message Sent</Alert.Heading>
-            <p>
+          <Alert.Heading style={styles.alertTitle}>Message Sent</Alert.Heading>
+            <p style={styles.alertBody}>
               Thank you for your message! I will respond as promptly as I can, please expect an email from stevencmann2@gmail.com. 
             </p>
       </Alert>
       ) : (null)}
-  
+      
+      </div>
+
     <Card style={styles.cardContainer}>
     <Card.Body>
-      <Card.Title>
-          <h1 style={styles.header}>
-            Contact Me
-          </h1> 
-          <hr style={styles.line}/>
-      </Card.Title>
-      <Card.Subtitle style={styles.sub}>
-          Please fill out the form below or send an email to stevencmann2@gmail.com 
-      </Card.Subtitle>
+      
     <Form validated={validation} onSubmit={formCheck}>
         <Row>
             <Col xs={12} sm={12} md={6} large={6} xl={6} >
@@ -206,17 +210,27 @@ const styles = {
   cardContainer:{
     boxShadow: '0 8px 6px -6px black',
     backgroundColor: '#b0bdd4',
-    padding: '1.25rem'    
+    padding: '1.25rem',
+    marginTop: '2em' ,
+    fontFamily:`'Poppins', sans-serif`,
+    fontWeight: 400    
 },
 header: {
-  color: 'black'
+  marginTop: '1em',
+  color: 'white',
+  fontFamily: `'Abril Fatface', cursive`,
 },
-sub:{
-  marginBottom: '2em'
+alertBody:{
+  fontFamily:`'Poppins', sans-serif`,
+  fontWeight: 400 
+},
+alertTitle: {
+  fontFamily:`'Poppins', sans-serif`,
+  fontWeight: 700 
 },
 line: {
   width: '5em',
-  border: '0.1em solid #560c6b',
+  border: '0.1em solid white',
   marginLeft: 0,
   marginBottom: '1.5em'
 },

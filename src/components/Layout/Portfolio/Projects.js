@@ -11,7 +11,7 @@ const Projects = () => {
             <div style={styles.screenContainer} id="projects">
             <Row>
                 <Col>
-                    <h1 style={{color: 'white'}}>Projects</h1>
+                    <h1 style={styles.section}>Projects</h1>
                     <hr style={styles.line}/>
                 </Col>
             </Row>
@@ -44,9 +44,13 @@ const styles={
     },
     line: {
         width: '5em',
-        border: '0.1em solid #560c6b',
+        border: '0.1em solid white',
         marginLeft: 0
     },
+    section:{
+        fontFamily: `'Abril Fatface', cursive`,
+        color: 'white'
+    }
   
    
 }

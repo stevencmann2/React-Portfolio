@@ -94,7 +94,7 @@ const styles = {
    
     line: {
         width: '5em',
-        border: '0.1em solid #560c6b',
+        border: '0.1em solid white',
         marginLeft: 0
     },
     brand: {
@@ -102,28 +102,29 @@ const styles = {
         color: 'white'
     },
     header: {
-
+        fontFamily: `'Abril Fatface', cursive`,
     },
     subDiv:{
         marginTop: '1.5em',
         marginBottom: '2em'
     },
     subHeader: {
+        fontFamily: `'Poppins', sans-serif`,
         fontStyle: 'italic',
+        fontWeight: 500,
         fontSize: '1.5em',
     },
     subHeader2: {
+        fontFamily: `'Poppins', sans-serif`,
         fontStyle: 'italic',
-        fontSize: '1em',
-    },
-    logo: {
-        height: '4em',
-        size: '4em',
-        margin: '1em'
+        fontWeight: 500,
+        fontSize: '1.5em',
     },
     buttonText: {
         color: 'white',
-        textAlign: 'center',    
+        textAlign: 'center',
+        fontFamily: `'Poppins', sans-serif`,
+        fontWeight: 500   
     }
 }
 export default Banner; 

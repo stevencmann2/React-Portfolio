@@ -19,14 +19,14 @@ const ProjectsCard = props =>{
                 </Col>
                 <Col md={6}>
                 <Card.Body style={styles.cardBody}>
-                    <Card.Title className="text-center flex-start">
+                    <Card.Title className="text-center flex-start" style={styles.projectTitle}>
                         {props.title}
                     </Card.Title>
                     <Card.Subtitle>
                         <FontAwesomeIcon onClick={()=>window.open(props.github)} style={styles.FAIcon} icon="code" />
                         <FontAwesomeIcon onClick={()=>window.open(props.demo)} style={styles.FAIcon} icon="eye"/>
                     </Card.Subtitle>
-                    <Card.Text className="text-center ">
+                    <Card.Text className="text-center" style={styles.descrText}>
                         {props.description}
                     </Card.Text>
                     <div className="d-flex align-content-end">
@@ -73,22 +73,28 @@ const styles={
        display: 'flex',
        flexDirection: 'column', 
        alignItems: 'center',
-  
-      
    },
    logo: {
-    height: '3em',
-    width: '3em',
-    color: 'white',
-    margin: '0.4em'   
+        height: '3em',
+        width: '3em',
+        color: 'white',
+        margin: '0.4em'   
+    },
+    FAIcon: {
+        height: '1.3em',
+        width: '1.3em',
+        color: 'black',
+        margin: '0.4em',
+        cursor: 'pointer'     
 },
-FAIcon: {
-    height: '1.3em',
-    width: '1.3em',
-    color: 'black',
-    margin: '0.4em',
-    cursor: 'pointer'     
+projectTitle:{
+    fontFamily:`'Poppins', sans-serif`,
+    fontWeight: 700
 },
+descrText:{
+    fontFamily:`'Poppins', sans-serif`,
+    fontWeight: 200 
+}
 }
 
 export default ProjectsCard;

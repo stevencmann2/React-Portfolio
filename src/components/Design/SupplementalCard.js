@@ -21,7 +21,7 @@ const SupplementalCard = props => {
                     <FontAwesomeIcon onClick={()=>window.open(props.github)} style={styles.FAIcon} icon="code" />
                     <FontAwesomeIcon onClick={()=>window.open(props.demo)} style={styles.FAIcon} icon="eye"/>
                 </Card.Subtitle>
-                <Card.Text className="text-center ">
+                <Card.Text className="text-center " style={styles.descrText}>
                     {props.description}
                 </Card.Text>
                 <div className="d-flex align-content-end">
@@ -72,7 +72,9 @@ const styles={
    
    },
    titleText:{
-       fontSize: '1em'
+    //    fontSize: '1em',
+       fontFamily:`'Poppins', sans-serif`,
+    fontWeight: 700
    },
    logo: {
     height: '1.8em',
@@ -87,6 +89,11 @@ FAIcon: {
     margin: '0.4em',
     cursor: 'pointer'   
 },
+
+descrText:{
+    fontFamily:`'Poppins', sans-serif`,
+    fontWeight: 200 
+}
 }
 
 export default SupplementalCard;

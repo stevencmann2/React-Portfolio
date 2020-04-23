@@ -31,7 +31,7 @@
     },
     {
         "id": 6,
-        "name": "Javacript",
+        "name": "Javascript",
         "category": "Languages and Tools",
         "iconLogo" :  "/javascript.png"
     },
@@ -128,7 +128,7 @@
     },
     {
         "id": 23,
-        "name": "Virtual Studio Code",
+        "name": "Visual Studio Code",
         "category": "Development Tools",
         "iconLogo" :  "/VsCode.png"
     },

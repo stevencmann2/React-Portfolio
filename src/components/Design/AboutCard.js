@@ -37,7 +37,8 @@ const AboutCard = () => {
 const styles={
     text: {
         color: 'black',
-        fontFamily:`'Lora', serif`
+        fontFamily:`'Poppins', sans-serif`,
+        fontWeight: 200
     }
 }
 

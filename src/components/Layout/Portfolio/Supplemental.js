@@ -13,7 +13,7 @@ const Supplemental = () => {
             <div style={styles.screenContainer} id="supplemental">
                 <Row>
                         <Col>
-                            <h1 style={{color: 'white'}}>Supplemental</h1>
+                            <h1 style={styles.section}>Supplemental</h1>
                             <hr style={styles.line}/>
                         </Col>
                 </Row>
@@ -60,9 +60,14 @@ const styles= {
     },
     line: {
         width: '5em',
-        border: '0.1em solid #560c6b',
+        border: '0.1em solid white',
         marginLeft: 0
     },
+    section:{
+            fontFamily: `'Abril Fatface', cursive`,
+            color: 'white'
+        
+    }
   
 }
 

@@ -45,7 +45,7 @@ const HomeBanner = props => {
                 <Row>
                     <Link to='about' smooth={true} duration={2000} >
                         <div className="custom-button" style={{backgroundColor: clicked}} onMouseDown={MouseDownHandler} onMouseUp={MouseUpHandler}>
-                            <h4 style={styles.buttonText}>About Me</h4>   
+                            <h4 style={styles.buttonText}>About</h4>   
                         </div>
                     </Link>
                 </Row>
@@ -60,7 +60,7 @@ const HomeBanner = props => {
 const styles = {
     line: {
         width: '5em',
-        border: '0.1em solid #560c6b',
+        border: '0.1em solid white',
         marginLeft: 0
     },
     brand: {
