@@ -4,7 +4,7 @@ Learn about who I am and view my recent projects.
 
 ## Deployment
 
-https://xenodochial-spence-d325c8.netlify.app
+https://steven-mann-portfolio.netlify.app/
 
 ## Preview
 ![Preview of my portfolio](./src/assets/images/CoverPhoto.png)
