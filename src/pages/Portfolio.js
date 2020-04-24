@@ -10,7 +10,7 @@ const Portfolio = () => {
 
     return(
 
-        <div className="wallpaper" style={{backgroundImage: '#132745'}}>
+        <div>
             <Banner
                 background="NatalieChaney.jpg"
                 header="Portfolio"
