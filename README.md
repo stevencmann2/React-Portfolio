@@ -6,6 +6,9 @@ Learn about who I am and view my recent projects.
 
 https://xenodochial-spence-d325c8.netlify.app
 
+## Preview
+![Preview of my portfolio](./src/assets/images/CoverPhoto.png)
+
 ## Getting Started
 
 If you would like to view the code or clone my portfolio, click the clone icon above to copy this repository. Then simply navigate to your desired location on  your local machine using terminal and use the command 'git clone' + the pasted link to begin downloading my code.  
