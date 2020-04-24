@@ -10,14 +10,14 @@ const ProjectsCard = props =>{
     return(
       
         <Row style={styles.projectDiv} key={props.id} className="hvr-grow">
-                <Col >
+                <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                     <div style={styles.imgContainer} onClick={()=>window.open(props.demo)}>
                         <Card.Img src={require('../../assets/images/Projects' + props.image)} 
                             style={styles.projImg}
                             />  
                     </div>
                 </Col>
-                <Col >
+                <Col xs={12} sm={12} md={6} lg={6} xl={6} >
                 <Card.Body style={styles.cardBody}>
                     <Card.Title className="text-center flex-start" style={styles.projectTitle}>
                         {props.title}
