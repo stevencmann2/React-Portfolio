@@ -12,7 +12,7 @@ const Footer = () => {
                 <Container className="text-center text-light">
                        
                         <Col xs={4} sm={4} md={4} large={4} xl={4} >
-                            <NavLink exact to="/" className="navbar-brand" style={styles.me}> &copy; Steven Mann 2020</NavLink>   
+                            <NavLink exact to="/" className="navbar-brand" style={styles.me}> &copy; Steven Mann</NavLink>   
                         </Col>
                         
 

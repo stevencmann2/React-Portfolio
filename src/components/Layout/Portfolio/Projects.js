@@ -12,7 +12,6 @@ const Projects = () => {
             <div style={styles.screenContainer} id="projects">
             <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
             <Row>
-
                 <Col>
                     <h1 style={styles.section}>Projects</h1>
                     <hr style={styles.line}/>
