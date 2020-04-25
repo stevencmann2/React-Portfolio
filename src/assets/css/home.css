@@ -12,8 +12,8 @@ body{
 
 /* Grow - effect courtesy of hover.css */
 .hvr-grow {
-    display: inline-block;
-    vertical-align: middle;
+    /* display: inline-block;
+    vertical-align: middle; */
     transform: translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     backface-visibility: hidden;

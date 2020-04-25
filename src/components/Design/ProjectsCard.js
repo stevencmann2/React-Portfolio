@@ -8,8 +8,8 @@ const ProjectsCard = props =>{
 
 
     return(
-      
-        <Row style={styles.projectDiv} key={props.id} className="hvr-grow">
+      <div className="hvr-grow">
+        <Row style={styles.projectDiv} key={props.id} >
                 <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                     <div style={styles.imgContainer} onClick={()=>window.open(props.demo)}>
                         <Card.Img src={require('../../assets/images/Projects' + props.image)} 
@@ -36,9 +36,9 @@ const ProjectsCard = props =>{
                     </div>
                 </Card.Body>
                 </Col>
-           
+            
         </Row>
-
+        </div>
     )
 
 }
