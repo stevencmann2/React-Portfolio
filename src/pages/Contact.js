@@ -7,9 +7,9 @@ import '../assets/css/home.css'
 const Contact = () => {
 
     return(
+
     <div style={styles.backDrop}>
         <Container style={styles.screenContainer}>
-            
             <ContactForm />
         </Container>
     </div>

@@ -31,8 +31,7 @@ const styles = {
     screenContainer: {
         paddingTop: '10em',
         paddingBottom: '6em',
-        // paddingLeft: '6em',
-        // paddingRight: '6em'
+        
         
     },
 }

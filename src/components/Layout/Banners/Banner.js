@@ -43,7 +43,7 @@ const Banner = props => {
         }
     }
 
-    // style={{backgroundImage: `url(${Hey})`}}
+    
 
     return (
         <div className=".img-fluid wallpaper" 
