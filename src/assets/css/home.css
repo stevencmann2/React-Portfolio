@@ -68,30 +68,45 @@ body{
 
   @media screen and (max-width: 980px) {
 
-    /* .bannerContent{
-        margin-top : 30%;
+    .bannerContent{
+        margin-top : 24%;
        
-    } */
+    }
 
 }
 
   @media screen and (max-width: 768px) {
 
     .bannerContent{
-        margin-top : 60%;
+        margin-top : 30%;
        
     }
 
   }
-@media (min-width: 650px ) {
+@media (max-width: 650px ) {
     .wallpaper {
         background-position: center center;
         background-size: cover;
    
     }
-    /* .bannerContent{
-        margin-top : 60%;
+    .bannerContent{
+        margin-top : 30%;
        
-    } */
+    }
 
 }
+@media (max-width: 480px ){
+    .bannerContent{
+        margin-top : 60%;
+       
+    }
+
+}
+@media (max-width: 320px ){
+    .bannerContent{
+        margin-top : 60%;
+       
+    }
+    
+}
+
