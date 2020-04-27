@@ -46,6 +46,7 @@ const Banner = props => {
     
 
     return (
+        
         <div className=".img-fluid wallpaper" 
             style={{height: '45em', 
                 backgroundImage: `url(${require(`../../../assets/images/Backgrounds/${props.background}`)})`}}>
@@ -84,6 +85,7 @@ const Banner = props => {
                 </Row>
             </Container>
         </div>
+        
     )
 }
 
