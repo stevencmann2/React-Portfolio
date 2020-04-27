@@ -11,7 +11,7 @@ const Home = () => {
             <Banner
                 background="HuguesDeBuyer.jpg"
                 header="Full Stack Web Developer"
-                subHeader="Bridging user experience with clients needs"
+                subHeader="Bridging user experience with client needs"
                 buttonTitle="Bio"
                 destination="about"
                 />    

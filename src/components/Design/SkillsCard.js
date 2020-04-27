@@ -111,7 +111,7 @@ const SkillsCard = () => {
 
             <Card.Body >
                 <Card.Title style={styles.LanTitle}>
-                    Development Tools
+                    Development
                 </Card.Title>
                     <Container>
                     <Row>

@@ -14,6 +14,13 @@ body{
     background-size: cover;
 }
 
+.screenContainer {
+    padding-top: 4em;
+    padding-bottom: 6em;
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
 /* Grow - effect courtesy of hover.css */
 .hvr-grow {
     /* display: inline-block;
@@ -72,6 +79,7 @@ body{
         margin-top : 24%;
        
     }
+   
 
 }
 
@@ -94,11 +102,25 @@ body{
        
     }
 
+    .screenContainer {
+        padding-top: 4em;
+        padding-bottom: 4em;
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+
 }
 @media (max-width: 480px ){
     .bannerContent{
         margin-top : 60%;
        
+    }
+
+    .screenContainer {
+        padding-top: 3em;
+        padding-bottom: 3em;
+        padding-left: 2em;
+        padding-right: 2em;
     }
 
 }

@@ -9,7 +9,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 const Projects = () => {
     return (
         
-            <div style={styles.screenContainer} id="projects">
+            <div style={{ backgroundImage: `url(${Pattern})` }} className="screenContainer" id="projects">
             <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
             <Row>
                 <Col>
@@ -37,13 +37,13 @@ const Projects = () => {
 }
 
 const styles={
-    screenContainer: {
-        backgroundImage: `url(${Pattern})`,
-        paddingTop: '4em',
-        paddingBottom: '6em',
-        paddingLeft: '6em',
-        paddingRight: '6em'
-    },
+    // screenContainer: {
+    //     backgroundImage: `url(${Pattern})`,
+    //     paddingTop: '4em',
+    //     paddingBottom: '6em',
+    //     paddingLeft: '6em',
+    //     paddingRight: '6em'
+    // },
     line: {
         width: '5em',
         border: '0.1em solid white',
