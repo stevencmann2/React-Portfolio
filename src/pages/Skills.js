@@ -19,7 +19,7 @@ const Skills = () => {
                 buttonTitle="Let's See It"
                 destination="mySkills"
             />
-            <Container style={styles.screenContainer}>
+            <Container className="skillsContainer">
                 <SkillsCard />
             </Container>
         </div>
@@ -28,12 +28,12 @@ const Skills = () => {
 }
 
 const styles = {
-    screenContainer: {
-        paddingTop: '10em',
-        paddingBottom: '6em',
+    // screenContainer: {
+    //     paddingTop: '10em',
+    //     paddingBottom: '6em',
         
         
-    },
+    // },
 }
 
 export default Skills;

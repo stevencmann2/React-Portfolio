@@ -20,6 +20,10 @@ body{
     padding-left: 6em;
     padding-right: 6em;
 }
+.skillsContainer {
+    padding-top: 8em;
+    padding-bottom: 6em;
+}
 .logo {
     height: 4em;
     margin: 1em;
@@ -83,6 +87,10 @@ body{
         margin-top : 24%;
        
     }
+    .skillsContainer {
+        padding-top: 6em;
+        padding-bottom: 6em;
+    }
    
 
 }
@@ -92,6 +100,11 @@ body{
     .bannerContent{
         margin-top : 30%;
        
+    }
+
+    .skillsContainer {
+        padding-top: 6em;
+        padding-bottom: 6em;
     }
 
   }
@@ -111,6 +124,11 @@ body{
         padding-bottom: 4em;
         padding-left: 3em;
         padding-right: 3em;
+    }
+
+    .skillsContainer {
+        padding-top: 6em;
+        padding-bottom: 6em;
     }
 
 }
