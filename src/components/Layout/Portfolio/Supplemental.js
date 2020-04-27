@@ -11,7 +11,7 @@ const Supplemental = () => {
 
     return(
         <div style={{backgroundColor: '#1f2629' , backgroundImage: `url(${MapPattern})`}}>
-            <div style={styles.screenContainer} id="supplemental">
+            <div className="screenContainer" id="supplemental">
             <ScrollAnimation animateIn="fadeInRight" animateOnce={true}>
                 <Row>
                         <Col>
