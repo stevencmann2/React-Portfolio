@@ -39,9 +39,9 @@ const AboutMe = () => {
                     </ScrollAnimation>
                     <Row className="justify-content-center m-5"> 
                         <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-                            <Image src={require('../../assets/images/Icons/NodeLogo.svg')} alt="Node logo" style={styles.logo} />
-                            <Image src={require('../../assets/images/Icons/react.png')} alt="React logo" style={styles.logo} />
-                            <Image src={require('../../assets/images/Icons/javascript.png')} alt="Javascript logo"  style={styles.logo} />
+                            <Image src={require('../../assets/images/Icons/NodeLogo.svg')} alt="Node logo" className="logo" />
+                            <Image src={require('../../assets/images/Icons/react.png')} alt="React logo" className="logo" />
+                            <Image src={require('../../assets/images/Icons/javascript.png')} alt="Javascript logo"  className="logo" />
                         </ScrollAnimation>
                     </Row>
                 </Container>
@@ -79,11 +79,11 @@ const styles ={
         marginLeft: 0,
         marginBottom: '1.5em'
     },
-    logo: {
-        height: '4em',
-        size: '4em',
-        margin: '1em'
-    },
+    // logo: {
+    //     height: '4em',
+    //     // size: '4em',
+    //     margin: '1em'
+    // },
     colWrapper: {
         marginBottom: "2em"
     }

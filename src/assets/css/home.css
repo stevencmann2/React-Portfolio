@@ -20,6 +20,10 @@ body{
     padding-left: 6em;
     padding-right: 6em;
 }
+.logo {
+    height: 4em;
+    margin: 1em;
+}
 
 /* Grow - effect courtesy of hover.css */
 .hvr-grow {
@@ -124,10 +128,23 @@ body{
     }
 
 }
+
+@media (max-width: 450px ){
+
+    .logo {
+        height: 3em;
+        margin: 0.5em;
+    }
+
+}
 @media (max-width: 320px ){
     .bannerContent{
         margin-top : 60%;
        
+    }
+    .logo {
+        height: 3em;
+        margin: 0.2em;
     }
     
 }
