@@ -2,6 +2,10 @@
 body{
     font-family: 'Amatic SC', cursive;
 }
+.bannerContent{
+    margin-top : 18%;
+   
+}
 
 .wallpaper {
     height: 100%; 
@@ -62,12 +66,32 @@ body{
     will-change: opacity;
   } */
 
+  @media screen and (max-width: 980px) {
 
+    /* .bannerContent{
+        margin-top : 30%;
+       
+    } */
+
+}
+
+  @media screen and (max-width: 768px) {
+
+    .bannerContent{
+        margin-top : 60%;
+       
+    }
+
+  }
 @media (min-width: 650px ) {
     .wallpaper {
         background-position: center center;
         background-size: cover;
    
     }
+    /* .bannerContent{
+        margin-top : 60%;
+       
+    } */
 
 }

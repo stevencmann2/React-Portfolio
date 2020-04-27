@@ -50,11 +50,11 @@ const Banner = props => {
         <div className=".img-fluid wallpaper" 
             style={{height: '45em', 
                 backgroundImage: `url(${require(`../../../assets/images/Backgrounds/${props.background}`)})`}}>
-            <Container>
+            <Container >
                 <Row>
                     <Col xs={12} sm={12} md={12} lg={12} xl={12}>
                         <animated.div style={fadeInTop}>
-                            <div style={styles.brand}>
+                            <div style={styles.brand} className="bannerContent">
                                 <h1 style={styles.header}>
                                     {props.header}
                                 </h1>
@@ -100,8 +100,9 @@ const styles = {
         marginLeft: 0
     },
     brand: {
-        marginTop: '18%',
-        color: 'white'
+        // marginTop: '18%',
+        color: 'white',
+        
     },
     header: {
         fontFamily: `'Abril Fatface', cursive`,
