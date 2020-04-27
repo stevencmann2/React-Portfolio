@@ -11,7 +11,7 @@ import Portfolio from './pages/Portfolio';
 import Skills from './pages/Skills';
 import MyNavbar from './components/Layout/MyNavbar'
 import Footer from './components/Layout/Footer';
-
+import TopPage from './components/Layout/TopPage'
 
 library.add(fab, faCheckSquare, faCoffee, faFileAlt, faEnvelope, faCode, faEye)
 
@@ -22,6 +22,7 @@ const App = () => {
   return (
     <Router>
       <MyNavbar />
+      <TopPage />
         <Switch>
           <Route exact path="/" component={Home} />
             <Route exact path="/contact" component={Contact} />
