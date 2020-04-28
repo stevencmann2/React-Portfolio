@@ -14,7 +14,7 @@
         "image": "/LevelUp.png",
         "title": "LevelUp Gaming",
         "description": "Gaming site utilizing user authentication and select APIs to dynamically change user experience. Voted best overall project #1 in Houston Coding Bootcamp.",
-        "github": "https://github.com/aw-exe/Level-Up-Gaming-Site",
+        "github": "https://github.com/stevencmann2/Level-Up",
         "demo": "https://aw-exe.github.io/Level-Up-Gaming-Site/",
         "localIcons" :  ["/Jquery.svg", "/FirebaseRealTime.png","/Bootstrap.png", "/API.png", "/Scratch.svg"]
         
@@ -24,7 +24,7 @@
         "image": "/passport.png",
         "title": "Passport (Web)",
         "description": "Budgeting travel application designed for the financially conscious individual. Voted best overall project #2 in Houston Coding Bootcamp.",
-        "github": "https://github.com/aw-exe/Passport",
+        "github": "https://github.com/stevencmann2/Passport",
         "demo": "https://passport-aw.herokuapp.com/",
         "localIcons" :  ["/NodeLogo.svg", "/handle.png", "/mysql.svg", "/Auth0.png"]
         
