@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import {NavLink} from "react-router-dom";
 import { Navbar, Nav } from 'react-bootstrap'
+import '../../assets/css/home.css'
 
 const MyNavbar = () => {
 
@@ -9,7 +10,7 @@ const MyNavbar = () => {
 
     return(
     
-    <Navbar expanded={expanded} fixed="top" collapseOnSelect expand="lg"  variant="dark" style={styles.shadow}>
+    <Navbar expanded={expanded} fixed="top" collapseOnSelect expand="lg"  variant="dark" style={styles.shadow} >
     <NavLink exact to="/" className="navbar-brand" style={styles.me}>Steven Mann</NavLink>
     <Navbar.Toggle  onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
