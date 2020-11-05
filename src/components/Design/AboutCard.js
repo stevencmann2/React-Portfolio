@@ -7,10 +7,12 @@ const AboutCard = () => {
         <div>
              <div style={styles.text}>
              
-             My name is Steven Mann, an aspiring web developer in Houston, TX. While I am proficient in several technolgoies, I have a passionate focus on Javascript, React, and Node.js. 
+             My name is Steven Mann, a web developer in Houston, TX. While I am versed in several technolgoies, I have a passionate focus on Javascript, React, and Node.js. 
              I have experience building, designing and styling personal websites using languages and tools such as HTML, CSS and JQuery, resulting in fully functional web platforms. 
              In previous work experience, I was able to utilize and merge client inventory into a proprietary application, giving the client the ability to view, order and maintain assets. 
-            I am passionate about working in collaborative environments to merge functionality with creativity, ensuring optimal results for user-centric designs. 
+             Recently, I accepted an internship with Love Advertising in Houston, focusing on the implementation and development of key digital services, including email marketing, 
+             site & blog maintenance, landing page development, and data collection for email and web reporting. 
+              
      
              <br />
              <br />
