@@ -191,7 +191,61 @@
         "name": "Victory Charts",
         "category": "Libraries",
         "iconLogo" :  "/Formidable.png"
+    },
+    {
+        "id": 34,
+        "name": "WordPress",
+        "category": "Digital Tools",
+        "iconLogo" :  "/wordpress.png"
+    },
+    {
+        "id": 35,
+        "name": "ModX",
+        "category": "Digital Tools",
+        "iconLogo" :  "/modx.png"
+    },
+    {
+        "id": 36,
+        "name": "Content Builder",
+        "category": "Digital Tools",
+        "iconLogo" :  "/salesforce.png"
+    },
+    {
+        "id": 37,
+        "name": "Fishbowl",
+        "category": "Digital Tools",
+        "iconLogo" :  "/fishbowl.png"
+    },
+    {
+        "id": 38,
+        "name": "Litmus",
+        "category": "Digital Tools",
+        "iconLogo" :  "/litmus.png"
+    },
+  
+    {
+        "id": 39,
+        "name": "Adobe Photoshop",
+        "category": "Digital Tools",
+        "iconLogo" :  "/photoshop.png"
+    },
+    {
+        "id": 40,
+        "name": "Google Analytics",
+        "category": "Digital Tools",
+        "iconLogo" :  "/google-analytics.png"
+    },
+    {
+        "id": 41,
+        "name": "Social Bakers",
+        "category": "Digital Tools",
+        "iconLogo" :  "/social-bakers.png"
     }
+    
+    
+
+
+    
     
     
 

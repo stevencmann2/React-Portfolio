@@ -12,11 +12,33 @@ const SkillsCard = () => {
    const DBSkills = skillsData.filter(item=> item.category ===  'Databases & Architecture')
    const IDSkills = skillsData.filter(item=> item.category ===  'Identity')
    const DevSkills = skillsData.filter(item=> item.category ===  'Development Tools')
+   const DigitalSkills = skillsData.filter(item=> item.category ===  'Digital Tools')
   
     return(
         
         <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
         <Card style={styles.cardContainer} id="mySkills">
+
+        <Card.Body >
+        <Card.Title style={styles.LanTitle}>
+            Digital
+        </Card.Title>
+            <Container>
+            <Row>
+                {DigitalSkills.map(item=>
+                    <div key={item.id}>
+                        <div style={styles.itemStack} >
+                            <Image src={require('../../assets/images/Icons'+ item.iconLogo)} style={styles.logo}/> 
+                            <p style={styles.lanName}>{item.name}</p>
+                        </div>
+                    </div>
+                )}
+            </Row>
+            </Container>
+    </Card.Body>
+
+
+
             
             <Card.Body >
                 <Card.Title style={styles.LanTitle}>
@@ -35,8 +57,8 @@ const SkillsCard = () => {
                     </Row>
                     </Container>
             </Card.Body>
-            
 
+            
             <Card.Body >
                 <Card.Title style={styles.LanTitle}>
                     Libraries
