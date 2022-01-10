@@ -7,27 +7,11 @@ const AboutCard = () => {
         <div>
              <div style={styles.text}>
              
-             My name is Steven Mann, a web developer in Houston, TX. While I am versed in several technolgoies, I have a passionate focus on Javascript, React, and Node.js. 
-             I have experience building, designing and styling personal websites using languages and tools such as HTML, CSS and JQuery, resulting in fully functional web platforms. 
-             In previous work experience, I was able to utilize and merge client inventory into a proprietary application, giving the client the ability to view, order and maintain assets. 
-             Recently, I accepted an internship with Love Advertising in Houston. My internship focuses on the implementation and development of key digital services, including email marketing, 
-             site & blog maintenance, landing page development, and data collection for social media, email, and web reporting. 
-              
-     
+             My name is Steven Mann, a Junior Web Developer at Love Advertising in Houston, Texas. In this role, I assist our digital team with a variety of services, including web content updates, client site maintenance, development/deployment of email campaigns, creation/development of landing pages, publishing blogs, and reporting for web and email clients. Platforms and programs I continually work with include various CMS programs (Drupal, WordPress, ModX), ESP’s (SFMC, MailChimp, Fishbowl), Litmus Builder and Email on Acid, Google Analytics and Tag Manager, Photoshop, and various web development languages (HTML, CSS, Javascript, PHP).
              <br />
              <br />
             
-             When I'm not working on my career, I enjoy writing, recording and performing music across the state of
-             Texas.
-             I perform in several local bands and enjoy playing genres from country and americana to blues and rock.
-             I
-             have opened
-             for acts like Kyle Hollingsworth, Dumpstafunk, Naughty Professor, George Porter Jr., Organ Freeman
-             and
-             The Texas Gentlemen.
-             I am also an outdoor enthusiast - I enjoy biking, fishing, hiking and camping. On my most recent camping trip, I
-             traveled to Lost Maples
-             just outside of San Antonio, TX, where I spent four days in the remote Texas Hill Country among friends and family.
+             In a recent project, I helped migrate ESP’s for a select client where I was able to help save marketing dollars through list sanitation. This process involved multiple subscriber lists across multiple brands totaling over 300k contacts. The migration included account setup, data backup, list sanitizing, migrating automations, branding profile landing pages, and various integrations. The final step in the process included a holistic look at the client’s email program, including analysis of key performance indicators, subject line analysis, YOY list growth and email content analysis.
           
              
              </div>
