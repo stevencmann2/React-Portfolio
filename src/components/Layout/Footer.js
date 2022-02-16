@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink} from "react-router-dom";
 import { Col, Container, Nav } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Resume from '../../assets/pdf/Steven-Mann-Resume.pdf'
+import Resume from '../../assets/pdf/Steven-Mann-Resume-2022.pdf'
 
 
 const Footer = () => {
