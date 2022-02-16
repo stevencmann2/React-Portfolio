@@ -14,7 +14,7 @@ const Skills = () => {
             <Banner 
                 background="CedricLetsch.jpg"
                 header="Skills"
-                subHeader={`"The beautiful thing about learning is that no one can take it away from you"`}
+                subHeader={`"The beautiful thing about learning is that no one can take it away from you."`}
                 subHeader2="B.B. King"
                 buttonTitle="Let's See It"
                 destination="mySkills"

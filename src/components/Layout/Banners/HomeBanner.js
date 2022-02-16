@@ -37,7 +37,7 @@ const HomeBanner = props => {
                             <div style={styles.brand}>
                                 <h1 style={styles.header}>Full Stack Web Developer</h1>
                                 <hr style={styles.line}/>
-                                <h2 style={styles.subHeader}>Bridging user experience with clients needs. </h2>
+                                <h2 style={styles.subHeader}>Bridging user experience with clients needs.</h2>
                             </div>
                         </animated.div> 
                     </Col>
