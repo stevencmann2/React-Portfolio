@@ -17,7 +17,7 @@ const Portfolio = () => {
             <Banner
                 background="NatalieChaney.jpg"
                 header="Portfolio"
-                subHeader={`"Make it simple, but significant"`}
+                subHeader={`"Make it simple, but significant."`}
                 subHeader2="Don Draper"
                 buttonTitle="Projects"
                 destination="projects"
